@@ -8,11 +8,13 @@ namespace _01Operadores
             Soma s = new Soma();
             Multiplicacao m = new Multiplicacao();
             Divisao d = new Divisao();
+            Subtração sb = new Subtração();
 
             Console.WriteLine("-------Escolha uma operação para dois números inteiros------");
             Console.WriteLine("1- Soma");
             Console.WriteLine("2- Multiplicação");
             Console.WriteLine("3- Divisão");
+            Console.WriteLine("4- Subtração");
             int escolhaUsuario = int.Parse(Console.ReadLine());
             
             switch (escolhaUsuario)
@@ -44,6 +46,15 @@ namespace _01Operadores
                     Console.WriteLine("Digite o segundo número: ");
                     d.n2 = int.Parse(Console.ReadLine());
                     d.mensagem();
+
+                    break;
+
+                case 4: 
+                    Console.WriteLine("Digite o primeiro número: ");
+                    sb.n1 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o segundo número: ");
+                    sb.n2 = int.Parse(Console.ReadLine());
+                    sb.mensagem();
 
                     break;
 
