@@ -16,8 +16,14 @@ namespace _01Operadores
         {
             int calculoDiv = divisao();
             int restoDiv = resto();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("O resultado da divisão é: "+calculoDiv);
-            Console.WriteLine("Resto da divisão: "+restoDiv);
+                if (restoDiv == 0)
+                {
+                   return;
+                }
+                else 
+                    Console.WriteLine("Resto da divisão: "+restoDiv);
         }
 
     }

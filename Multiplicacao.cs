@@ -11,7 +11,9 @@ namespace _01Operadores
         public void mensagem()
         {
             int calculoMulti = multiplicacao();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("O resultado da multiplicação é: "+calculoMulti);
+            
         }
     }
 }

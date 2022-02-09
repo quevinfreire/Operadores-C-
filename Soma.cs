@@ -11,6 +11,7 @@ namespace _01Operadores
         public void mensagem()
         {
             int calculoSoma = soma();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("O resultado da soma é: "+calculoSoma);
         }
         

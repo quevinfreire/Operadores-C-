@@ -1,0 +1,11 @@
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.csprojAssemblyReference.cache
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.csproj.CoreCompileInputs.cache
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.AssemblyInfoInputs.cache
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.AssemblyInfo.cs
+C:\Codigos\C#\C#\01Operadores\bin\Debug\netcoreapp2.1\01Operadores.deps.json
+C:\Codigos\C#\C#\01Operadores\bin\Debug\netcoreapp2.1\01Operadores.runtimeconfig.json
+C:\Codigos\C#\C#\01Operadores\bin\Debug\netcoreapp2.1\01Operadores.runtimeconfig.dev.json
+C:\Codigos\C#\C#\01Operadores\bin\Debug\netcoreapp2.1\01Operadores.dll
+C:\Codigos\C#\C#\01Operadores\bin\Debug\netcoreapp2.1\01Operadores.pdb
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.dll
+C:\Codigos\C#\C#\01Operadores\obj\Debug\netcoreapp2.1\01Operadores.pdb

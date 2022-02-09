@@ -11,6 +11,7 @@ namespace _01Operadores
         public void mensagem()
         {
             int resultadoSub = subtracao();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("O resultado da subtração é: "+resultadoSub);
         }
     

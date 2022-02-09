@@ -5,22 +5,23 @@ namespace _01Operadores
     {
         static void Main(string[] args)
         {
+            
             Soma s = new Soma();
             Multiplicacao m = new Multiplicacao();
             Divisao d = new Divisao();
             Subtração sb = new Subtração();
-
+            
             Console.WriteLine("-------Escolha uma operação para dois números inteiros------");
             Console.WriteLine("1- Soma");
             Console.WriteLine("2- Multiplicação");
             Console.WriteLine("3- Divisão");
             Console.WriteLine("4- Subtração");
+            Console.WriteLine("5- Sair");
             int escolhaUsuario = int.Parse(Console.ReadLine());
-            
-            switch (escolhaUsuario)
-            {
-                case 1:
-                    
+    
+            switch(escolhaUsuario)
+            {   
+                case 1:      
                     Console.WriteLine("Digite o primeiro número: ");
                     s.n1 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite o segundo número: ");
@@ -30,7 +31,6 @@ namespace _01Operadores
                     break;
 
                 case 2:
-
                     Console.WriteLine("Digite o primeiro número: ");
                     m.n1 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite o segundo número: ");
@@ -38,9 +38,8 @@ namespace _01Operadores
                     m.mensagem();
 
                     break;
-                
+            
                 case 3:
-
                     Console.WriteLine("Digite o primeiro número: ");
                     d.n1 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite o segundo número: ");
@@ -56,6 +55,11 @@ namespace _01Operadores
                     sb.n2 = int.Parse(Console.ReadLine());
                     sb.mensagem();
 
+                    break;
+                
+                case 5:
+                
+                    Console.Clear();
                     break;
 
                 default:
